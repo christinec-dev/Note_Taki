@@ -7,10 +7,10 @@
     android:layout_margin="10dp"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".AddNoteActivity">
+    tools:context=".UpdateAcitivity">
 
     <EditText
-        android:id="@+id/editNoteTitle"
+        android:id="@+id/editNoteTitleUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -22,7 +22,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editNoteDescription"
+        android:id="@+id/editNoteDescriptionUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -39,7 +39,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonCancel"
+            android:id="@+id/buttonCancelUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -49,7 +49,7 @@
             android:textColor="@color/white" />
 
         <Button
-            android:id="@+id/buttonSubmit"
+            android:id="@+id/buttonSubmitUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

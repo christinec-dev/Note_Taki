@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InformationBook">
         <activity
-            android:name=".AddNoteActivity"
+            android:name=".UpdateAcitivity"
             android:exported="false" />
+        <activity
+            android:name=".AddNoteActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
